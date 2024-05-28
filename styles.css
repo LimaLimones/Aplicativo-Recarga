@@ -12,8 +12,8 @@ body {
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    overflow: auto; /* Adiciona barra de rolagem vertical se necessário */
-    max-height: calc(100vh - 40px); /* Limita a altura da seção principal */
+    overflow: auto; /* BARRA DE ROLAGEM */
+    max-height: calc(100vh - 40px); 
 }
 
 .header {
@@ -98,7 +98,7 @@ button:hover {
     padding: 0px 0;
     width: 600px;
     display: flex;
-    justify-content: center; /* Centraliza os itens horizontalmente */
+    justify-content: center; 
     position: fixed;
     bottom: 0;
 }
@@ -107,8 +107,7 @@ button:hover {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    display: flex; /* Exibe os itens da lista em linha */
-}
+    display: flex; 
 
 .footer nav ul li {
     display: inline;
