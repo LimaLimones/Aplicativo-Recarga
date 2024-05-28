@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recarga de Bilhete Único</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="logo.png" alt="Logo da Empresa">
+            <h1>Recarga de Bilhete Único</h1>
+        </div>
+        <div class="card">
+            <img src="card.png" alt="Bilhete Único">
+            <div class="card-details">
+                <h2>Lucas Lima de Oliveira</h2>
+                <p>Saldo: R$ 165,40</p>
+                <p>Validade: 10/2026</p>
+            </div>
+        </div>
+        <div class="options">
+            <button onclick="validarSaldo()"><i class="fas fa-check-circle"></i> Validar Saldo</button>
+            <button onclick="gerarQR()"><i class="fas fa-qrcode"></i> Gerar QR Code</button>
+            <button onclick="consultarSaldo()"><i class="fas fa-eye"></i> Visualizar Cartão Virtual</button>
+            <button onclick="recargaPIX()"><i class="fas fa-money-bill-wave"></i> Recarga Fácil</button>
+            <button onclick="consultaOutrosCartoes()"><i class="fas fa-history"></i> Meus Bilhetes</button>
+            <button onclick="cadastrarsCartoes()"><i class="fas fa-plus"></i> Adicionar Bilhete</button>
+        </div>
+        <div class="footer">
+            <nav>
+                <ul>
+                    <li><button><i class="fas fa-home"></i> Início</button></li>
+                    <li><button><i class="fas fa-history"></i> Histórico</button></li>
+                    <li><button><i class="fas fa-question-circle"></i> Suporte</button></li>
+                    <li><button><i class="fas fa-plus-circle"></i> Mais</button></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
